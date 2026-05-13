@@ -82,3 +82,6 @@
   - 아이콘: `lib/components/icons/` 하위
   - Flutter 명령어: `flutter analyze`, `flutter test`, `dart format .`
 
+
+
+
