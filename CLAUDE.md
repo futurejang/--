@@ -81,3 +81,4 @@
   - 위젯 파일명: `app_컴포넌트명.dart` (snake_case)
   - 아이콘: `lib/components/icons/` 하위
   - Flutter 명령어: `flutter analyze`, `flutter test`, `dart format .`
+
