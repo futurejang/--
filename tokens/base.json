@@ -1,0 +1,60 @@
+{
+  "spacing": {
+    "none": { "value": "0",    "type": "string" },
+    "3xs":  { "value": "2px",  "type": "string" },
+    "xxs":  { "value": "4px",  "type": "string" },
+    "xs":   { "value": "8px",  "type": "string" },
+    "sm":   { "value": "12px", "type": "string" },
+    "md":   { "value": "16px", "type": "string" },
+    "lg":   { "value": "20px", "type": "string" },
+    "xl":   { "value": "24px", "type": "string" },
+    "2xl":  { "value": "32px", "type": "string" },
+    "3xl":  { "value": "40px", "type": "string" }
+  },
+
+  "radius": {
+    "none": { "value": "0",    "type": "string" },
+    "xxs":  { "value": "2px",  "type": "string" },
+    "xs":   { "value": "4px",  "type": "string" },
+    "sm":   { "value": "8px",  "type": "string" },
+    "md":   { "value": "12px", "type": "string" },
+    "lg":   { "value": "16px", "type": "string" },
+    "xl":   { "value": "24px", "type": "string" }
+  },
+
+  "font": {
+    "family": { "value": "'pretendard', sans-serif", "type": "string" },
+    "size": {
+      "10": { "value": "10px", "type": "string" },
+      "11": { "value": "11px", "type": "string" },
+      "12": { "value": "12px", "type": "string" },
+      "13": { "value": "13px", "type": "string" },
+      "14": { "value": "14px", "type": "string" },
+      "15": { "value": "15px", "type": "string" },
+      "16": { "value": "16px", "type": "string" },
+      "18": { "value": "18px", "type": "string" },
+      "24": { "value": "24px", "type": "string" },
+      "28": { "value": "28px", "type": "string" }
+    },
+    "weight": {
+      "400": { "value": "400", "type": "string" },
+      "700": { "value": "700", "type": "string" }
+    }
+  },
+
+  "line": {
+    "height": {
+      "14": { "value": "14px", "type": "string" },
+      "16": { "value": "16px", "type": "string" },
+      "18": { "value": "18px", "type": "string" },
+      "20": { "value": "20px", "type": "string" },
+      "28": { "value": "28px", "type": "string" },
+      "32": { "value": "32px", "type": "string" }
+    }
+  },
+
+  "shadow": {
+    "sm": { "value": "0 0 {spacing.sm} 0 {color.black.10}",         "type": "string" },
+    "lg": { "value": "0 {spacing.xs} {spacing.xl} 0 {color.black.10}", "type": "string" }
+  }
+}

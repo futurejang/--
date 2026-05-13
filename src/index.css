@@ -1,0 +1,165 @@
+@import 'tailwindcss';
+@import './tokens/index.css';
+
+/* ──────────────────────────────────────────────────────────
+ * Tailwind v4 토큰 매핑
+ * _generated.css가 정의한 CSS 변수를 Tailwind 유틸리티로 노출.
+ * `inline`은 var를 재선언하지 않고 Tailwind에 namespace만 등록함.
+ * ────────────────────────────────────────────────────────── */
+@theme inline {
+  /* ── Colors: Primitive (스케일) ── */
+  --color-primary-50: var(--color-primary-50);
+  --color-primary-100: var(--color-primary-100);
+  --color-primary-200: var(--color-primary-200);
+  --color-primary-300: var(--color-primary-300);
+  --color-primary-400: var(--color-primary-400);
+  --color-primary-500: var(--color-primary-500);
+  --color-primary-600: var(--color-primary-600);
+  --color-primary-700: var(--color-primary-700);
+  --color-primary-800: var(--color-primary-800);
+  --color-primary-900: var(--color-primary-900);
+
+  --color-yellow-50: var(--color-yellow-50);
+  --color-yellow-100: var(--color-yellow-100);
+  --color-yellow-200: var(--color-yellow-200);
+  --color-yellow-300: var(--color-yellow-300);
+  --color-yellow-400: var(--color-yellow-400);
+  --color-yellow-500: var(--color-yellow-500);
+  --color-yellow-600: var(--color-yellow-600);
+  --color-yellow-700: var(--color-yellow-700);
+  --color-yellow-800: var(--color-yellow-800);
+  --color-yellow-900: var(--color-yellow-900);
+
+  --color-blue-50: var(--color-blue-50);
+  --color-blue-100: var(--color-blue-100);
+  --color-blue-200: var(--color-blue-200);
+  --color-blue-300: var(--color-blue-300);
+  --color-blue-400: var(--color-blue-400);
+  --color-blue-500: var(--color-blue-500);
+  --color-blue-600: var(--color-blue-600);
+  --color-blue-700: var(--color-blue-700);
+  --color-blue-800: var(--color-blue-800);
+  --color-blue-900: var(--color-blue-900);
+
+  --color-green-50: var(--color-green-50);
+  --color-green-100: var(--color-green-100);
+  --color-green-200: var(--color-green-200);
+  --color-green-300: var(--color-green-300);
+  --color-green-400: var(--color-green-400);
+  --color-green-500: var(--color-green-500);
+  --color-green-600: var(--color-green-600);
+  --color-green-700: var(--color-green-700);
+  --color-green-800: var(--color-green-800);
+  --color-green-900: var(--color-green-900);
+
+  --color-grey-50: var(--color-grey-50);
+  --color-grey-100: var(--color-grey-100);
+  --color-grey-200: var(--color-grey-200);
+  --color-grey-300: var(--color-grey-300);
+  --color-grey-400: var(--color-grey-400);
+  --color-grey-500: var(--color-grey-500);
+  --color-grey-600: var(--color-grey-600);
+  --color-grey-700: var(--color-grey-700);
+  --color-grey-800: var(--color-grey-800);
+  --color-grey-900: var(--color-grey-900);
+
+  --color-white-10: var(--color-white-10);
+  --color-white-20: var(--color-white-20);
+  --color-white-30: var(--color-white-30);
+  --color-white-40: var(--color-white-40);
+  --color-white-50: var(--color-white-50);
+  --color-white-60: var(--color-white-60);
+  --color-white-70: var(--color-white-70);
+  --color-white-80: var(--color-white-80);
+  --color-white-90: var(--color-white-90);
+  --color-white-100: var(--color-white-100);
+
+  --color-black-10: var(--color-black-10);
+  --color-black-20: var(--color-black-20);
+  --color-black-30: var(--color-black-30);
+  --color-black-40: var(--color-black-40);
+  --color-black-50: var(--color-black-50);
+  --color-black-60: var(--color-black-60);
+  --color-black-70: var(--color-black-70);
+  --color-black-80: var(--color-black-80);
+  --color-black-90: var(--color-black-90);
+  --color-black-100: var(--color-black-100);
+
+  /* ── Colors: Semantic ── */
+  --color-text-primary: var(--color-text-primary);
+  --color-text-secondary: var(--color-text-secondary);
+  --color-text-grey: var(--color-text-grey);
+  --color-text-inverse: var(--color-text-inverse);
+  --color-text-recommend: var(--color-text-recommend);
+  --color-text-footer-link: var(--color-text-footer-link);
+  --color-text-footer-caption: var(--color-text-footer-caption);
+
+  --color-background-white: var(--color-background-white);
+  --color-background-grey: var(--color-background-grey);
+  --color-background-active: var(--color-background-active);
+  --color-background-pressed: var(--color-background-pressed);
+  --color-background-recommend: var(--color-background-recommend);
+  --color-background-pick: var(--color-background-pick);
+  --color-background-update: var(--color-background-update);
+  --color-background-primary-btn: var(--color-background-primary-btn);
+  --color-background-secondary-btn: var(--color-background-secondary-btn);
+  --color-background-footer: var(--color-background-footer);
+  --color-background-divider: var(--color-background-divider);
+  --color-background-pagenation: var(--color-background-pagenation);
+
+  --color-border-primary: var(--color-border-primary);
+  --color-border-secondary: var(--color-border-secondary);
+  --color-border-focus: var(--color-border-focus);
+
+  --color-icon-grey: var(--color-icon-grey);
+  --color-icon-light-grey: var(--color-icon-light-grey);
+
+  /* ── Spacing ── */
+  --spacing-none: var(--spacing-none);
+  --spacing-3xs: var(--spacing-3xs);
+  --spacing-xxs: var(--spacing-xxs);
+  --spacing-xs: var(--spacing-xs);
+  --spacing-sm: var(--spacing-sm);
+  --spacing-md: var(--spacing-md);
+  --spacing-lg: var(--spacing-lg);
+  --spacing-xl: var(--spacing-xl);
+  --spacing-2xl: var(--spacing-2xl);
+  --spacing-3xl: var(--spacing-3xl);
+
+  /* ── Radius ── */
+  --radius-none: var(--radius-none);
+  --radius-xxs: var(--radius-xxs);
+  --radius-xs: var(--radius-xs);
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-xl: var(--radius-xl);
+
+  /* ── Typography ── */
+  --font-sans: var(--font-family);
+
+  --text-10: var(--font-size-10);
+  --text-11: var(--font-size-11);
+  --text-12: var(--font-size-12);
+  --text-13: var(--font-size-13);
+  --text-14: var(--font-size-14);
+  --text-15: var(--font-size-15);
+  --text-16: var(--font-size-16);
+  --text-18: var(--font-size-18);
+  --text-24: var(--font-size-24);
+  --text-28: var(--font-size-28);
+
+  --font-weight-400: var(--font-weight-400);
+  --font-weight-700: var(--font-weight-700);
+
+  --leading-14: var(--line-height-14);
+  --leading-16: var(--line-height-16);
+  --leading-18: var(--line-height-18);
+  --leading-20: var(--line-height-20);
+  --leading-28: var(--line-height-28);
+  --leading-32: var(--line-height-32);
+
+  /* ── Shadow ── */
+  --shadow-sm: var(--shadow-sm);
+  --shadow-lg: var(--shadow-lg);
+}

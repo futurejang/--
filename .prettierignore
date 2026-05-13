@@ -1,0 +1,14 @@
+node_modules
+dist
+storybook-static
+flutter_output
+
+# figma-harness가 제공한 자산 — 직접 수정 금지
+.claude
+docs
+scripts
+src/tokens
+tokens
+CLAUDE.md
+style-dictionary.config.mjs
+figma-code-connect.json

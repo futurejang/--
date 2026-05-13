@@ -1,0 +1,227 @@
+{
+  "_설명": "Figma Code Connect 매핑. Claude Code에서 get_code_connect_suggestions 실행 후 자동 생성됨.",
+  "mappings": {
+    "5:1916": {
+      "component": "Logo",
+      "path": "src/components/ui/Logo",
+      "import": "import { Logo } from '@/components/ui/Logo';",
+      "figmaNode": "https://www.figma.com/design/66Hvh0jJZudXZXnKousC25/?node-id=5-1916",
+      "props": {
+        "alt": "string (기본: \"NEXON\")",
+        "width": "number (기본: 100, 비율 24:100 자동 유지)",
+        "className": "string?"
+      }
+    },
+    "7:1079": {
+      "component": "Button",
+      "path": "src/components/ui/Button",
+      "import": "import { Button } from '@/components/ui/Button';",
+      "figmaNode": "https://www.figma.com/design/66Hvh0jJZudXZXnKousC25/?node-id=7-1079",
+      "props": {
+        "variant": "'primary' | 'secondary' | 'outline' (기본: 'primary')",
+        "size": "'lg' | 'md' | 'sm' (기본: 'lg')",
+        "state": "'default' | 'hover' | 'press' (선택, Storybook 시연용 force)",
+        "children": "ReactNode (label)",
+        "onClick": "() => void"
+      },
+      "example": "<Button variant=\"primary\" size=\"lg\">Button</Button>"
+    },
+    "6:1185": {
+      "component": "Icon",
+      "path": "src/components/ui/Icon",
+      "import": "import { Icon } from '@/components/ui/Icon';",
+      "figmaNode": "https://www.figma.com/design/66Hvh0jJZudXZXnKousC25/?node-id=6-1185",
+      "example": "<Icon name=\"newpage\" />"
+    },
+    "6:1189": {
+      "component": "Icon",
+      "path": "src/components/ui/Icon",
+      "import": "import { Icon } from '@/components/ui/Icon';",
+      "figmaNode": "https://www.figma.com/design/66Hvh0jJZudXZXnKousC25/?node-id=6-1189",
+      "example": "<Icon name=\"menu\" />"
+    },
+    "6:1187": {
+      "component": "Icon",
+      "path": "src/components/ui/Icon",
+      "import": "import { Icon } from '@/components/ui/Icon';",
+      "figmaNode": "https://www.figma.com/design/66Hvh0jJZudXZXnKousC25/?node-id=6-1187",
+      "example": "<Icon name=\"chevronLeft\" />"
+    },
+    "6:1188": {
+      "component": "Icon",
+      "path": "src/components/ui/Icon",
+      "import": "import { Icon } from '@/components/ui/Icon';",
+      "figmaNode": "https://www.figma.com/design/66Hvh0jJZudXZXnKousC25/?node-id=6-1188",
+      "example": "<Icon name=\"search\" />"
+    },
+    "6:1191": {
+      "component": "Icon",
+      "path": "src/components/ui/Icon",
+      "import": "import { Icon } from '@/components/ui/Icon';",
+      "figmaNode": "https://www.figma.com/design/66Hvh0jJZudXZXnKousC25/?node-id=6-1191",
+      "example": "<Icon name=\"location\" />"
+    },
+    "6:1186": {
+      "component": "Icon",
+      "path": "src/components/ui/Icon",
+      "import": "import { Icon } from '@/components/ui/Icon';",
+      "figmaNode": "https://www.figma.com/design/66Hvh0jJZudXZXnKousC25/?node-id=6-1186",
+      "example": "<Icon name=\"chevronRight\" />"
+    },
+    "6:1184": {
+      "component": "Icon",
+      "path": "src/components/ui/Icon",
+      "import": "import { Icon } from '@/components/ui/Icon';",
+      "figmaNode": "https://www.figma.com/design/66Hvh0jJZudXZXnKousC25/?node-id=6-1184",
+      "example": "<Icon name=\"desktop\" />"
+    },
+    "6:1190": {
+      "component": "Icon",
+      "path": "src/components/ui/Icon",
+      "import": "import { Icon } from '@/components/ui/Icon';",
+      "figmaNode": "https://www.figma.com/design/66Hvh0jJZudXZXnKousC25/?node-id=6-1190",
+      "example": "<Icon name=\"mobile\" />"
+    },
+    "6:1233": {
+      "component": "Icon",
+      "path": "src/components/ui/Icon",
+      "import": "import { Icon } from '@/components/ui/Icon';",
+      "figmaNode": "https://www.figma.com/design/66Hvh0jJZudXZXnKousC25/?node-id=6-1233",
+      "example": "<Icon name=\"card\" />"
+    },
+    "7:1193": {
+      "component": "SwiperPagenation",
+      "path": "src/components/ui/SwiperPagenation",
+      "import": "import { SwiperPagenation } from '@/components/ui/SwiperPagenation';",
+      "figmaNode": "https://www.figma.com/design/66Hvh0jJZudXZXnKousC25/?node-id=7-1193",
+      "props": {
+        "gameName": "string",
+        "eventName": "string",
+        "state": "'default' | 'active' (기본: 'default')",
+        "onClick": "() => void (선택, 있으면 <button>으로 렌더)",
+        "className": "string?",
+        "aria-label": "string? (onClick과 함께 사용 권장)"
+      },
+      "example": "<SwiperPagenation gameName=\"메이플스토리\" eventName=\"겨울 업데이트\" state=\"active\" />"
+    },
+    "7:1156": {
+      "component": "GnbBar",
+      "path": "src/components/ui/GnbBar",
+      "import": "import { GnbBar } from '@/components/ui/GnbBar';",
+      "figmaNode": "https://www.figma.com/design/66Hvh0jJZudXZXnKousC25/?node-id=7-1156",
+      "props": {
+        "menuLabel": "string (기본: \"메뉴\")",
+        "signupLabel": "string (기본: \"회원가입\")",
+        "loginLabel": "string (기본: \"로그인\")",
+        "logoAlt": "string (기본: \"NEXON\")",
+        "onMenuClick": "() => void",
+        "onCardClick": "() => void",
+        "onLocationClick": "() => void",
+        "onSignupClick": "() => void",
+        "onLoginClick": "() => void",
+        "className": "string?"
+      },
+      "example": "<GnbBar onMenuClick={openMenu} onLoginClick={login} />"
+    },
+    "8:89": {
+      "component": "Badge",
+      "path": "src/components/ui/Badge",
+      "import": "import { Badge } from '@/components/ui/Badge';",
+      "figmaNode": "https://www.figma.com/design/66Hvh0jJZudXZXnKousC25/?node-id=8-89",
+      "props": {
+        "variant": "'pick' | 'recommend' | 'update' (필수)",
+        "children": "ReactNode? (라벨 override, 기본: pick=\"Pick\" / recommend=\"추천\" / update=\"Update\")",
+        "className": "string?"
+      },
+      "example": "<Badge variant=\"pick\" />"
+    },
+    "9:430": {
+      "component": "Badge",
+      "path": "src/components/ui/Badge",
+      "import": "import { Badge } from '@/components/ui/Badge';",
+      "figmaNode": "https://www.figma.com/design/66Hvh0jJZudXZXnKousC25/?node-id=9-430",
+      "props": {
+        "variant": "'update' (이 노드는 update variant 인스턴스)",
+        "children": "ReactNode? (라벨 override, 기본: \"Update\")",
+        "className": "string?"
+      },
+      "example": "<Badge variant=\"update\" />"
+    },
+    "8:113": {
+      "component": "RecommendItem",
+      "path": "src/components/ui/RecommendItem",
+      "import": "import { RecommendItem } from '@/components/ui/RecommendItem';",
+      "figmaNode": "https://www.figma.com/design/66Hvh0jJZudXZXnKousC25/?node-id=8-113",
+      "props": {
+        "imageSrc": "string (필수)",
+        "gameName": "string (필수)",
+        "imageAlt": "string? (기본: gameName)",
+        "badgeVariant": "'pick' | 'recommend' (기본: 'pick')",
+        "badgeLabel": "ReactNode? (배지 라벨 override)",
+        "onClick": "() => void (선택, 있으면 <button>으로 렌더)",
+        "className": "string?"
+      },
+      "example": "<RecommendItem imageSrc=\"/cover.png\" gameName=\"메이플스토리\" badgeVariant=\"pick\" onClick={open} />"
+    },
+    "10:454": {
+      "component": "Footer",
+      "path": "src/components/ui/Footer",
+      "import": "import { Footer } from '@/components/ui/Footer';",
+      "figmaNode": "https://www.figma.com/design/66Hvh0jJZudXZXnKousC25/?node-id=10-454",
+      "props": {
+        "primaryLinks": "ReadonlyArray<{label,href?}>? (기본: NEXON 1차 링크 7개)",
+        "secondaryLinks": "ReadonlyArray<{label,href?}>? (기본: NEXON 2차 링크 7개)",
+        "companyInfo": "ReadonlyArray<string>? (기본: NEXON 회사 정보 2줄)",
+        "copyright": "string? (기본: '© NEXON Korea Corporation All Rights Reserved.')",
+        "className": "string?"
+      },
+      "example": "<Footer />"
+    },
+    "9:1640": {
+      "component": "SearchBar",
+      "path": "src/components/ui/SearchBar",
+      "import": "import { SearchBar } from '@/components/ui/SearchBar';",
+      "figmaNode": "https://www.figma.com/design/66Hvh0jJZudXZXnKousC25/?node-id=9-1640",
+      "props": {
+        "value": "string? (controlled)",
+        "defaultValue": "string? (uncontrolled, 기본: '')",
+        "placeholder": "string? (기본: '게임명 검색')",
+        "name": "string?",
+        "onChange": "(value: string) => void",
+        "onSubmit": "(value: string) => void (Enter 또는 search 버튼 클릭 시)",
+        "searchButtonLabel": "string? (search 버튼 aria-label, 기본: 'Search')",
+        "className": "string?"
+      },
+      "example": "<SearchBar onSubmit={(q) => search(q)} />"
+    },
+    "9:151": {
+      "component": "FilterChip",
+      "path": "src/components/ui/FilterChip",
+      "import": "import { FilterChip } from '@/components/ui/FilterChip';",
+      "figmaNode": "https://www.figma.com/design/66Hvh0jJZudXZXnKousC25/?node-id=9-151",
+      "props": {
+        "selected": "boolean? (기본: false, true면 active 렌더)",
+        "state": "'default' | 'active' | 'hover' (선택, Storybook 시연용 force)",
+        "children": "ReactNode (label)",
+        "onClick": "() => void",
+        "className": "string?"
+      },
+      "example": "<FilterChip onClick={() => toggle('pc')}>PC</FilterChip>"
+    },
+    "45:328": {
+      "component": "Banner",
+      "path": "src/components/ui/Banner",
+      "import": "import { Banner } from '@/components/ui/Banner';",
+      "figmaNode": "https://www.figma.com/design/66Hvh0jJZudXZXnKousC25/?node-id=45-328",
+      "props": {
+        "imageSrc": "string (필수, 배너 이미지 URL)",
+        "imageAlt": "string (필수, 이미지 대체 텍스트)",
+        "href": "string? (있으면 <a>로 렌더)",
+        "onClick": "() => void (없을 때 <div>, href 없이 onClick만 있으면 <button>)",
+        "aria-label": "string? (인터랙티브 시 권장)",
+        "className": "string?"
+      },
+      "example": "<Banner imageSrc=\"/banner/mabinogi.png\" imageAlt=\"마비노기 모바일\" href=\"/events/mabinogi\" />"
+    }
+  }
+}
